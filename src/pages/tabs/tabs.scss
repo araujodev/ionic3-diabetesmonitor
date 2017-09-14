@@ -1,0 +1,22 @@
+.tabs-md .tabbar{
+    background: #1d1d1d !important;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+.tabs-md .tab-button[aria-selected=true], .tabs-md .tab-button[aria-selected=true] .tab-button-icon{
+    color: #ffffff !important;
+}
+
+.tabs-md .tab-button, .tabs-md .tab-button-icon{
+    color: rgba(255, 255, 255, 0.6);
+}
+    
+.footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before{
+    top: -1px;
+    bottom: auto;
+    background-position: left 0 top 0;
+    height: 1px;
+    background: #4c4c4c;;
+}
