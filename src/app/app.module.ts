@@ -6,6 +6,7 @@ import { MyApp } from './app.component';
 import { ConfigPage } from '../pages/config/config';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
+import { ModalMedicaoPage } from '../pages/modal-medicao/modal-medicao';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -17,6 +18,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ConfigPage,
     ContactPage,
     HomePage,
+    ModalMedicaoPage,
     TabsPage
   ],
   imports: [
@@ -28,6 +30,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     ConfigPage,
     ContactPage,
+    ModalMedicaoPage,
     HomePage,
     TabsPage
   ],

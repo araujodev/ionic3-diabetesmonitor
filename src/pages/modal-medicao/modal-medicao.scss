@@ -1,0 +1,22 @@
+page-modal-medicao {
+    .conteudo-pagina{
+        background: black;
+    }
+
+    ion-header .toolbar{
+        border-bottom: 1px solid #6f6f6f !important;
+    }
+
+    ion-header .toolbar-background{
+        background: #1d1d1d;
+    }
+
+    ion-header .toolbar-title{
+        color: #00a8fd;
+    }
+
+    .dismiss-modal-blue{
+        color: #00a6fb !important;
+        background-color: transparent;
+    }
+}

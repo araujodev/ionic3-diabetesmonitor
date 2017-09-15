@@ -1,0 +1,39 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Adicionar Nova Mediçao
+      </ion-title>
+      <ion-buttons start>
+        <button ion-button (click)="dismiss()">
+          <span ion-text color="primary" showWhen="ios">Fechar</span>
+          <ion-icon class="dismiss-modal-blue" name="md-close" showWhen="android,windows"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+
+<ion-content padding class="conteudo-pagina">
+
+    <ion-card>
+        <ion-card-header>
+          Registrar Nível de Açúcar
+        </ion-card-header>
+        <ion-card-content>
+            <ion-list>
+              <ion-item>
+                <ion-label stacked>Resultado da Glicose (mg/dL)</ion-label>
+                <ion-input type="number"></ion-input>
+              </ion-item>
+            
+              <ion-item>
+                <ion-label stacked>Horário</ion-label>
+                <ion-datetime displayFormat="MMM DD, h:mm A" [(ngModel)]="dataAtual"></ion-datetime>
+              </ion-item>
+            </ion-list>
+            <button ion-button full>Salvar</button>
+
+        </ion-card-content>
+      </ion-card>
+
+</ion-content>

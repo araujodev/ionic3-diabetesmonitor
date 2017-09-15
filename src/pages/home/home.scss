@@ -17,22 +17,22 @@ page-home {
         box-shadow:         inset 0 0 15px #000000;
     }
 
-    .circle::after{
-        content: "+";
+    .adicionar-medicao{
         position: absolute;
-        bottom: -28px;
+        bottom: -40px;
         color: #fff;
         font-size: 50px;
         left: 50%;
         margin-left: -50px;
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
         background: #00a8fd;
         text-align: center;
-        border-radius: 80px;
-        line-height: 80px;
+        border-radius: 100px;
+        padding-top: 15px;
         border: 5px solid #005784;
         text-shadow: 1px 0px 0px #0078b5;
+        -webkit-box-shadow: 0px 0px 15px #000;
         box-shadow: 0px 0px 15px #000;
     }
 
